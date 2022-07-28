@@ -1,3 +1,17 @@
+/*  */
+.bR {
+	border: 1px solid tomato;
+}
+
+.bB {
+	border: 1px solid cyan;
+}
+
+.bG {
+	border: 1px solid lime;
+}
+
+/*  */
 .carousel-inner:before {
 	content: '';
 	position: absolute;
@@ -9,17 +23,14 @@
 	z-index: 1;
 }
 
-.carousel-item {
+.h-100vh {
 	height: 100vh;
-	min-height: 300px;
-
 }
 
-.carousel-item img {
-	height: 100vh;
-
+.carousel-item {
+	min-height: 300px;
 }
 
 .carousel-caption {
-	bottom: 220px;
+	z-index: 2;
 }
