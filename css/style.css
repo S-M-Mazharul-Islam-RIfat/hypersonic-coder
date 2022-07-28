@@ -1,19 +1,10 @@
 /* Utility Classes Section Start */
-
-.mt-60 {
-	margin-top: 60px;
-}
-
 .h-100vh {
 	height: 100vh;
 }
 
 .h-223 {
 	height: 223px;
-}
-
-.w-60 {
-	width: 60%;
 }
 
 .pl-80 {
@@ -44,15 +35,11 @@ li {
 	list-style-type: none;
 }
 
-a {
-	text-decoration: none;
-}
-
 /* Utility Classes Section End */
 
 
 /* Others styles section start */
-.carousel-inner:before {
+.carousel-inner::before {
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -104,10 +91,6 @@ footer .social-icons ul li {
 }
 
 @media screen and (max-width:767px) {
-	.mt-60 {
-		margin-top: 60px;
-	}
-
 	.fs-30 {
 		font-size: 30px;
 	}
