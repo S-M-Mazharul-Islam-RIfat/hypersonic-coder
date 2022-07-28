@@ -20,6 +20,10 @@
 	height: 100vh;
 }
 
+.w-60 {
+	width: 60%;
+}
+
 .pl-80 {
 	padding-left: 80px;
 }
@@ -59,4 +63,16 @@
 
 .explore-section-bg-color {
 	background-color: #F4FAFD;
+}
+
+@media screen and (min-width:992px) {
+	.accordion-wrapper {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.accordion-wrapper {
+		width: 100%;
+	}
 }
