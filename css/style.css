@@ -40,6 +40,18 @@
 	padding: 100px 0;
 }
 
+.fs-18 {
+	font-size: 18px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 /* Utility Classes Section End */
 /*  */
 .carousel-inner:before {
@@ -65,14 +77,13 @@
 	background-color: #F4FAFD;
 }
 
-@media screen and (min-width:992px) {
-	.accordion-wrapper {
-		width: 60%;
-	}
+
+
+footer .container-fluid {
+	background-color: #161616;
 }
 
-@media screen and (max-width:991px) {
-	.accordion-wrapper {
-		width: 100%;
-	}
+footer .social-icons ul li {
+	padding: 10px;
+	background-color: #242424;
 }
