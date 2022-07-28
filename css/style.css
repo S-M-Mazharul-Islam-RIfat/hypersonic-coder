@@ -1,19 +1,7 @@
-/*  */
-.bR {
-	border: 1px solid tomato;
-}
-
-.bB {
-	border: 1px solid cyan;
-}
-
-.bG {
-	border: 1px solid lime;
-}
-
 /* Utility Classes Section Start */
-.mt-130 {
-	margin-top: 130px;
+
+.mt-60 {
+	margin-top: 60px;
 }
 
 .h-100vh {
@@ -61,7 +49,9 @@ a {
 }
 
 /* Utility Classes Section End */
-/*  */
+
+
+/* Others styles section start */
 .carousel-inner:before {
 	content: '';
 	position: absolute;
@@ -85,8 +75,6 @@ a {
 	background-color: #F4FAFD;
 }
 
-
-
 footer .container-fluid {
 	background-color: #161616;
 }
@@ -94,4 +82,33 @@ footer .container-fluid {
 footer .social-icons ul li {
 	padding: 10px;
 	background-color: #242424;
+}
+
+/* Others styles section end */
+
+/* Adjust Font size for tablet and mobile devices */
+@media screen and (min-width:992px) {
+	.mt-130 {
+		margin-top: 130px;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.mt-65 {
+		margin-top: 65px;
+	}
+
+	.fs-45 {
+		font-size: 45px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.mt-60 {
+		margin-top: 60px;
+	}
+
+	.fs-30 {
+		font-size: 30px;
+	}
 }
