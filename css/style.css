@@ -20,6 +20,10 @@
 	height: 100vh;
 }
 
+.h-223 {
+	height: 223px;
+}
+
 .w-60 {
 	width: 60%;
 }
@@ -42,6 +46,10 @@
 
 .fs-18 {
 	font-size: 18px;
+}
+
+.txt-justify {
+	text-align: justify;
 }
 
 li {
