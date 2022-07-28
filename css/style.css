@@ -28,7 +28,11 @@
 	padding-right: 80px;
 }
 
-.pt-pb-100 {
+.pt-100 {
+	padding: 100px 0;
+}
+
+.pb-100 {
 	padding: 100px 0;
 }
 
