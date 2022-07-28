@@ -16,6 +16,22 @@
 	margin-top: 130px;
 }
 
+.h-100vh {
+	height: 100vh;
+}
+
+.pl-80 {
+	padding-left: 80px;
+}
+
+.pr-80 {
+	padding-right: 80px;
+}
+
+.pt-pb-100 {
+	padding: 100px 0;
+}
+
 /* Utility Classes Section End */
 /*  */
 .carousel-inner:before {
@@ -29,14 +45,14 @@
 	z-index: 1;
 }
 
-.h-100vh {
-	height: 100vh;
-}
-
 .carousel-item {
 	min-height: 300px;
 }
 
 .carousel-caption {
 	z-index: 2;
+}
+
+.explore-section-bg-color {
+	background-color: #F4FAFD;
 }
